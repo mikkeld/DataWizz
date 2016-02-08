@@ -15,6 +15,9 @@
 		B669BB941C6799500007B1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B669BB921C6799500007B1C7 /* LaunchScreen.storyboard */; };
 		B669BB9F1C6799500007B1C7 /* DataWizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669BB9E1C6799500007B1C7 /* DataWizzTests.swift */; };
 		B669BBAA1C6799500007B1C7 /* DataWizzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669BBA91C6799500007B1C7 /* DataWizzUITests.swift */; };
+		B669BBB91C679AB90007B1C7 /* datawiss_default.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B669BBB81C679AB90007B1C7 /* datawiss_default.jpeg */; };
+		B669BBBB1C679B680007B1C7 /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669BBBA1C679B680007B1C7 /* Dataset.swift */; };
+		B669BBBE1C679E3F0007B1C7 /* stockmarket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B669BBBD1C679E3F0007B1C7 /* stockmarket.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		B669BBA51C6799500007B1C7 /* DataWizzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataWizzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B669BBA91C6799500007B1C7 /* DataWizzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWizzUITests.swift; sourceTree = "<group>"; };
 		B669BBAB1C6799500007B1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B669BBB81C679AB90007B1C7 /* datawiss_default.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datawiss_default.jpeg; sourceTree = "<group>"; };
+		B669BBBA1C679B680007B1C7 /* Dataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		B669BBBC1C679BD00007B1C7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		B669BBBD1C679E3F0007B1C7 /* stockmarket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stockmarket.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,7 @@
 		B669BB7A1C6799500007B1C7 = {
 			isa = PBXGroup;
 			children = (
+				B669BBB71C679AAD0007B1C7 /* Images */,
 				B669BB851C6799500007B1C7 /* DataWizz */,
 				B669BB9D1C6799500007B1C7 /* DataWizzTests */,
 				B669BBA81C6799500007B1C7 /* DataWizzUITests */,
@@ -102,6 +110,8 @@
 				B669BB861C6799500007B1C7 /* AppDelegate.swift */,
 				B669BB881C6799500007B1C7 /* ViewController.swift */,
 				B669BB8A1C6799500007B1C7 /* Main.storyboard */,
+				B669BBBA1C679B680007B1C7 /* Dataset.swift */,
+				B669BBBC1C679BD00007B1C7 /* MyPlayground.playground */,
 				B669BB901C6799500007B1C7 /* Assets.xcassets */,
 				B669BB921C6799500007B1C7 /* LaunchScreen.storyboard */,
 				B669BB951C6799500007B1C7 /* Info.plist */,
@@ -126,6 +136,15 @@
 				B669BBAB1C6799500007B1C7 /* Info.plist */,
 			);
 			path = DataWizzUITests;
+			sourceTree = "<group>";
+		};
+		B669BBB71C679AAD0007B1C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B669BBBD1C679E3F0007B1C7 /* stockmarket.jpg */,
+				B669BBB81C679AB90007B1C7 /* datawiss_default.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B669BB941C6799500007B1C7 /* LaunchScreen.storyboard in Resources */,
+				B669BBB91C679AB90007B1C7 /* datawiss_default.jpeg in Resources */,
+				B669BBBE1C679E3F0007B1C7 /* stockmarket.jpg in Resources */,
 				B669BB911C6799500007B1C7 /* Assets.xcassets in Resources */,
 				B669BB8C1C6799500007B1C7 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +282,7 @@
 			files = (
 				B669BB891C6799500007B1C7 /* ViewController.swift in Sources */,
 				B669BB871C6799500007B1C7 /* AppDelegate.swift in Sources */,
+				B669BBBB1C679B680007B1C7 /* Dataset.swift in Sources */,
 				B669BB8F1C6799500007B1C7 /* DataWizz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +510,7 @@
 				B669BBB01C6799500007B1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B669BBB11C6799500007B1C7 /* Build configuration list for PBXNativeTarget "DataWizzTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +519,7 @@
 				B669BBB31C6799500007B1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B669BBB41C6799500007B1C7 /* Build configuration list for PBXNativeTarget "DataWizzUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +528,7 @@
 				B669BBB61C6799500007B1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
